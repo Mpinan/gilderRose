@@ -4,6 +4,9 @@ class Item {
     this.sellIn = sellIn;
     this.quality = quality;
   }
+  isExpired() {
+    return false;
+  }
 }
 
 module.exports = Item;

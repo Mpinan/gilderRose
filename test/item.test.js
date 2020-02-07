@@ -16,4 +16,7 @@ describe("Item", () => {
   test("has a a quality", () => {
     expect(item.quality).toBe(5);
   });
+  test("is expired?", () => {
+    expect(item.isExpired()).toBe(false);
+  });
 });
