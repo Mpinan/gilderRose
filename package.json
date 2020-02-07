@@ -1,0 +1,21 @@
+{
+  "name": "gilderrose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaitone/gilderRose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaitone/gilderRose/issues"
+  },
+  "homepage": "https://github.com/jaitone/gilderRose#readme",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}
