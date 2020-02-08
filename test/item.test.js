@@ -19,4 +19,8 @@ describe("Item", () => {
   test("is expired?", () => {
     expect(item.isExpired()).toBe(false);
   });
+  xtest("if item expired, quality denotes by 2", () => {
+    item.sellIn = 0;
+    expect(item.quality).toBe(item.quality / 2);
+  });
 });
