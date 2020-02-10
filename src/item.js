@@ -4,8 +4,8 @@ class Item {
     this.sellIn = sellIn;
     this.quality = quality;
   }
-  isExpired() {
-    return false;
+  isExpired(item) {
+    // return item.quality / 2;
   }
 }
 
